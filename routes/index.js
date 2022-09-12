@@ -1,9 +1,10 @@
 const routes = require('express').Router();
-//const jokes = require('../controllers/');
+const showName = require('../controllers/');
 
-//routes.get('/', jokes.displayJoke);
+routes.get('/', showName.displayName);
+/*
 routes.get('/', (req,res) => {
     res.send('David Peña');
 });
-
+*/
 module.exports = routes;
