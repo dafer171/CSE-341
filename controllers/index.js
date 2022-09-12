@@ -1,5 +1,5 @@
 displayName = (req, res) => {
-    const name = "David Peña";
+    const name = "David Fernando Peña";
     res.status(200).send(data);
 };
 
