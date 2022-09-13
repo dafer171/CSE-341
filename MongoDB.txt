@@ -1,3 +1,0 @@
-MongoDB
-MongoDB1710
-mongodb+srv://MongoDB:MongoDB1710@cluster0.wnujvpn.mongodb.net/?retryWrites=true&w=majority
