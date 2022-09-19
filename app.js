@@ -13,7 +13,7 @@ app
     res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
     next();
   })
-  .use('/contacts', require('./routes'));
+  .use('/', require('./routes'));
 
 mongodb.initDb((err, mongodb) => {
   if (err) {
