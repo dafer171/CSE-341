@@ -2,10 +2,10 @@
   "name": "cse-341",
   "version": "1.0.0",
   "description": "git hub node",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "node server.js",
     "dev_start": "nodemon server.js"
   },
   "repository": {
