@@ -1,22 +1,22 @@
 displayName = (req, res) => {
     const names = {
         "contact" : {
-            "fistName": "David",
-            "LastName": "Peña",
+            "firstName": "David",
+            "lastName": "Peña",
             "email": "daf_171@hotmail.com",
             "favoriteColor": "Red",
             "birthday": "17/10/1988"
         },
         "contact2" : {
-            "fistName": "Azahara",
-            "LastName": "Soler",
+            "firstName": "Azahara",
+            "lastName": "Soler",
             "email": "daf_171@hotmail.com",
             "favoriteColor": "Pink",
             "birthday": "30/12/1991"
         },
         "contact3" : {
-            "fistName": "Jenny",
-            "LastName": "Andrade",
+            "firstName": "Jenny",
+            "lastName": "Andrade",
             "email": "daf_171@hotmail.com",
             "favoriteColor": "Green",
             "birthday": "27/02/1966"
