@@ -34,7 +34,7 @@ PUT http://localhost:8080/contacts/632b77beb9e663a94b74620a HTTP/1.1 content-typ
 },
 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/632b756bb9e663a94b746208 HTTP/1.1
+DELETE http://localhost:8080/contacts/632b8f0b3d3d4ea27b1aa1ed HTTP/1.1
 
 
 // PRODUCTION Deploy 
@@ -52,11 +52,11 @@ GET https://web-service-cse-341.onrender.com/contacts/632b77beb9e663a94b74620b
 POST https://web-service-cse-341.onrender.com/contacts HTTP/1.1 content-type: application/json
 
 {
-    "firstName": "Jose",
-    "LastName": "Andrade",
-    "email": "jose@hotmail.com",
-    "favoriteColor": "blue",
-    "birthday": "05/11/2000"
+    "firstName":"Jose",
+    "lastName":"Andrade",
+    "email":"jose@hotmail.com",
+    "favoriteColor":"blue",
+    "birthday":"05/11/2000"
 },
 
 ### PUT contact
@@ -71,4 +71,4 @@ PUT https://web-service-cse-341.onrender.com/contacts/632b77beb9e663a94b74620a H
 },
 
 ### DELETE contact
-DELETE https://web-service-cse-341.onrender.com/contacts/632b860f3d3d4ea27b1aa1ec HTTP/1.1
+DELETE https://web-service-cse-341.onrender.com/contacts/632b9258204f43b24b3c4600 HTTP/1.1
