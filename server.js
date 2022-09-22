@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-const mongodb = require('./db/connect')
-const port =  process.env.PORT || 3000; 
+const mongodb = require('./db/connect');
+const port = process.env.PORT || 3000;
 
-app.use('/', require('./routes'))
+app.use('/', require('./routes'));
 /*
 app.get('/',(req, res) => {
     res.send('Hello World!')
@@ -11,12 +11,12 @@ app.get('/',(req, res) => {
 */
 
 mongodb.initDb((err, mongodb) => {
-    if (err) {
-        console.log(err);
-    } else {
-        app.listen(port);
-        console.log(`Connected to DB and listening on ${port}`)
-    }
+  if (err) {
+    console.log(err);
+  } else {
+    app.listen(port);
+    console.log(`Connected to DB and listening on ${port}`);
+  }
 });
 /*
 app.listen(port, () => {

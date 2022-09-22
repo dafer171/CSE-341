@@ -32,8 +32,12 @@
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
     "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.8",
-    "eslint-plugin-vue": "^9.5.1"
+    "eslint-plugin-vue": "^9.5.1",
+    "install": "^0.13.0",
+    "prettier": "^2.7.1",
+    "snpm": "^0.1.1"
   }
 }
