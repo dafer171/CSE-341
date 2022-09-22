@@ -2,10 +2,10 @@
   "name": "cse-341",
   "version": "1.0.0",
   "description": "git hub node",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "node server.js",
     "dev_start": "nodemon server.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
@@ -25,7 +25,7 @@
     "body-parser": "^1.20.0",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
-    "lint": "^0.7.0",
+    "lint": "^1.1.2",
     "mongodb": "^4.9.1"
   },
   "devDependencies": {
