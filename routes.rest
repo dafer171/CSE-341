@@ -49,7 +49,8 @@ GET https://web-service-cse-341.onrender.com/contacts/632b77beb9e663a94b74620a
 GET https://web-service-cse-341.onrender.com/contacts/632b77beb9e663a94b74620b
 
 ### Create contact
-POST https://web-service-cse-341.onrender.com/contacts HTTP/1.1 content-type: application/json
+POST https://web-service-cse-341.onrender.com/contacts HTTP/1.1
+Content-Type: application/json
 
 {
     "firstName":"Jose",
