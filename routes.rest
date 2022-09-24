@@ -69,9 +69,9 @@ content-type: application/json
 "firstName":"Azahara", 
 "lastName":"Soler", 
 "email":"azahara@test.com", 
-"favoriteColor":"Pink", 
+"favoriteColor":"Red", 
 "birthday":"30/12/1991"
 }
 
 ### DELETE contact
-DELETE https://web-service-cse-341.onrender.com/contacts/632cc11181ace99a2b5fe89f HTTP/1.1
+DELETE https://web-service-cse-341.onrender.com/contacts/632f52e8ff1d3c65c218cccb HTTP/1.1
