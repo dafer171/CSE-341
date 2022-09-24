@@ -6,7 +6,7 @@
     "version": "1.0.0",
     "description": ""
   },
-  "host": "https://web-service-cse-341.onrender.com/",
+  "host": "https://web-service-cse-341.onrender.com",
   "basePath": "/",
   "schemes": [
     "http"
