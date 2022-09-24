@@ -43,11 +43,11 @@ DELETE http://localhost:8080/contacts/632cb35bafdea2dbc8b741cc HTTP/1.1
 GET https://web-service-cse-341.onrender.com/contacts
 
 ### Get contacts by ID
-GET https://web-service-cse-341.onrender.com/contacts/632b77beb9e663a94b746209
+GET https://web-service-cse-341.onrender.com/contacts/632cb07ae4c970f823ee6f5e
 ### 
-GET https://web-service-cse-341.onrender.com/contacts/632b77beb9e663a94b74620a
+GET https://web-service-cse-341.onrender.com/contacts/632cb07ae4c970f823ee6f5f
 ### 
-GET https://web-service-cse-341.onrender.com/contacts/632b77beb9e663a94b74620b
+GET https://web-service-cse-341.onrender.com/contacts/632cb07ae4c970f823ee6f60
 
 ### Create contact
 POST https://web-service-cse-341.onrender.com/contacts HTTP/1.1
@@ -62,16 +62,16 @@ content-type: application/json
 }
 
 ### PUT contact
-PUT https://web-service-cse-341.onrender.com/contacts/632cb22dafdea2dbc8b741c9 HTTP/1.1
+PUT https://web-service-cse-341.onrender.com/contacts/632cb07ae4c970f823ee6f5f HTTP/1.1
 content-type: application/json
 
 {
 "firstName":"Azahara", 
 "lastName":"Soler", 
-"email":"azahara@gmail.com", 
-"favoriteColor":"Red", 
+"email":"azahara@test.com", 
+"favoriteColor":"Pink", 
 "birthday":"30/12/1991"
 }
 
 ### DELETE contact
-DELETE https://web-service-cse-341.onrender.com/contacts/632cbb3aafdea2dbc8b741cd HTTP/1.1
+DELETE https://web-service-cse-341.onrender.com/contacts/632cc11181ace99a2b5fe89f HTTP/1.1
