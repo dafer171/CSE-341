@@ -2,16 +2,23 @@
   "swagger": "2.0",
   "info": {
     "title": "My API",
-    "desciption": "Contac API",
+    "desciption": "Contact API",
     "version": "1.0.0",
     "description": ""
   },
-  "host": "https://web-service-cse-341.onrender.com/contacts",
+  "host": "https://web-service-cse-341.onrender.com/",
   "basePath": "/",
   "schemes": [
     "http"
   ],
   "paths": {
+    "/api-docs": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
     "/contacts/": {
       "get": {
         "description": "",
@@ -22,6 +29,9 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
           }
         }
       },
@@ -80,6 +90,9 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
           }
         }
       },
