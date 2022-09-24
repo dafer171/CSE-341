@@ -6,7 +6,7 @@
     "version": "1.0.0",
     "description": ""
   },
-  "host": "localhost:8080",
+  "host": "https://web-service-cse-341.onrender.com/contacts",
   "basePath": "/",
   "schemes": [
     "http"
