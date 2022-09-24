@@ -6,10 +6,10 @@
     "version": "1.0.0",
     "description": ""
   },
-  "host": "https://web-service-cse-341.onrender.com",
+  "host": "web-service-cse-341.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
